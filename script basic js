@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App.js</title>
+    <style>
+        body {
+            background-color: rgb(27, 27, 27);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <h1>Script.JavaScript</h1> -->
+    </header>
+
+    <script>
+        // var - declara uma variavel
+        // let - declara uma variavel de bloco
+        // const - delcara uma constante de bloco
+        
+        // let age = 30;
+        // age = 31;
+
+        // console.log(age);
+
+        // let score;
+        // score = 10;
+        // console.log(score)
+
+        // String, Numbers, Boolean, null, undefined
+
+        // const name = 'John';
+        // const age = 30;
+        // const isCool = true;
+        // const rating = 4.5;
+        // const x = null;
+        // const y = undefined;
+        // let z;
+
+        // console.log(typeof y);
+
+        // String, Numbers, Boolean, null, undefined
+
+        // const name = 'John';
+        // const age = 30;
+
+        // // Concatenation
+        // console.log('Desenvolvimento Web');
+        // // Template String
+        // const hello = `My name is ${name} and I am ${age}`;
+
+        // console.log(hello);
+
+        // const s = 'Hello Word!';
+        // console.log(s.toUpperCase());
+
+        // const s = 'Hello Word!';
+        // console.log(s.split(''));
+
+        // const s = 'technology, computers, it, code';
+        // console.log(s.split(', '));
+
+        // Arrays - variables that hold multiple values
+
+        // const numbers = new Array(1,2,3,4,5,7,8,9);
+        // console.log(numbers);
+
+        // const fruits = ['Maça', 'laranja', 'maracuja'];
+        // fruits[3] = 'grapes';
+        // fruits.push('mangos');
+        // fruits.unshift('strawberries')
+        // fruits.pop()
+        // console.log(Array.isArray('hello'));
+        // console.log(fruits.indexOf('laranja'));
+        // console.log(fruits);
+
+        const person = {
+            firstName: 'John',
+            lastName: 'Doe',
+            age: 30,
+            hobbies: ['music', 'movies', 'sport'],
+            address: {
+                street: '50 main st',
+                city: 'Boston',
+                state: 'MA'
+            }
+        }
+
+        console.log(person);
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
