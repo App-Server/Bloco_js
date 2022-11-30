@@ -1,0 +1,120 @@
+// function-> Um conjunto de instruções que executar uma tarefa ou calcula um valor, mas para que um 
+// procedimento se qualifique como função, ele deve receber alguma entrada e retornar
+// uma saída onde haja algum relacionamento óbvio entre a entrada e saída.
+
+// var-> Declara uma variável, opcionalmente é possivel atribuir à ela um valor em sua 
+// inicialização.
+
+// getElementById()-> retorna um Elemento objeto que representa o elemento cuja id propriedade
+// corresponde à string especificada. Como os IDs de elements devem ser excluivos se 
+// especificados, eles são uma maneira útil de obter acesso a um elemento específico rapidamente.
+
+// if-> é uma estrutura condicional que executa a afirmação, dentro do bloco, se determina
+// condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
+
+// className-> retorna e define o valor do atributo class do elemento especificado. 
+
+function myFunction() {
+  var x = document.getElementById("myTopnav"); //id-> id="myTopnac" no HTML    
+  if (x.className === "topnav") { // "topnav" elemento do HTML
+    x.className += " responsive"; // "responsive" elemento do HTML
+  } else {
+    x.className = "topnav";
+  }
+}
+
+document.getElementById("demo").innerHTML = "Hello Javascript";
+
+// Define uma função chamada "myFunction" e faça-a exibir "Hello Word!" no elemento <p>.
+// Dica: Use a palavra-chave function para definir a funçõ (seguinda por um nome, seguida por
+// parênteses). Coloque o código que deseja eecutar pela função, entre chaves. Em seguida chame a função.
+
+// innerHTML-> é uma propriedade do Elemento que define ou retorna o conteúdo HTML de um elemento.
+// Essa propriedae geralmente é criada no DOM (Document Object Model), através do JavaScript.
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+// onclick-> executa determinada funcionalidade quando um botão é clicado. Isso pode ocorrer quando
+// um usuário envia um formulário, quando você altera determinado conteúdo na página da web e assim
+// por diante. Você coloca a função em JavaScript que você quer executar dentro da tag de abertura do botão.
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+// Exibição do JavaScrit
+// innerHTML;
+// document.write();
+// window.alert();
+// console.log();
+
+document.getElementById("demo").innerHTML = 5 + 6;
+document.write(5 + 6);
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+window.alert(5 + 6);
+alert(5 + 6);
+console.log(5 + 6);
+
+<button onclick="window.print()">Print this page</button>
+
+let x, y, z;    // Statement 1
+x =  5;         // Statement 2
+y =  6;         // Statement 3
+z =  x + y;     // Statement 4
+
+a = 5; b = 6; c = a + b;
+
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly";
+  document.getElementById("demo2").innerHTML = "How are you?";
+}
+
+document.getElementById("demo").innerHTML = (5 + 6) * 10;
+
+let lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+
+let carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+
+// Objetos Constantes e Arrays
+// you can create a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// you can change an element:
+cars[0] = "Toyota";
+
+// you can add an element:
+cars.push("Audi");
+
+// Objetos Constantes
+// you can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// you can change a property:
+car.color = "red";
+
+// you can add a property:
+car.owner = "Johnson";
+
+// Objetos javascript
+// objetos são escritos com chaves {}
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+//funções javascript
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(4, 3);
+
+// QR Code Generator
+const wrapper = document.querySelector(".wrapper"),
+qrInput = wrapper.querySelector(".form input"),
+qrImg = wrapper.querySelector(".form button");
